@@ -4,11 +4,11 @@
     "name": "SP10 Speeding, Goods Vehicle"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "SP20 Speeding (Not Goods Or Passenger)"
   },
   {
-    "id": 7,
+    "id": 3,
     "name": "SP30 Exceeding Statutory Speeding Limit"
   }
 ]

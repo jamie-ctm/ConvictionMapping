@@ -1,0 +1,14 @@
+[
+  {
+    "id": "SP",
+    "name": "SP - Speed Limits"
+  },
+  {
+    "id": "CU",
+    "name": "CU - Construction and Use Offences"
+  },
+  {
+    "id": "TS",
+    "name": "TS - Traffic Direction and Signs"
+  }
+]

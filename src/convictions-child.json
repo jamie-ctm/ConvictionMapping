@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "SP10 Speeding, Goods Vehicle",
+    "convictionId": "SP"
+  },
+  {
+    "id": 4,
+    "name": "SP20 Speeding (Not Goods Or Passenger)",
+    "convictionId": "SP"
+  },
+  {
+    "id": 7,
+    "name": "SP30 Exceeding Statutory Speeding Limit",
+    "convictionId": "SP"
+  },
+  {
+    "id": 2,
+    "name": "CU10 Defective Brakes",
+    "convictionId": "CU"
+  },
+  {
+    "id": 5,
+    "name": "CU20 Dangerous Use (Not Brakes, Steering or Tyres)",
+    "convictionId": "CU"
+  },
+  {
+    "id": 8,
+    "name": "CU30 Defective Tyres",
+    "convictionId": "CU"
+  },
+  {
+    "id": 3,
+    "name": "TS10 Traffic Lights Offence",
+    "convictionId": "TS"
+  },
+  {
+    "id": 6,
+    "name": "TS20 Double White Line Offence",
+    "convictionId": "TS"
+  },
+  {
+    "id": 9,
+    "name": "TS30 Stop Sign Offence",
+    "convictionId": "TS"
+  }
+]

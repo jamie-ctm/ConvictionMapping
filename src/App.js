@@ -2,9 +2,10 @@ import { useState } from 'react';
 import './App.css';
 
 import convictions from './conviction-type.json';
-import sp from  './conviction-children/sp.json';
-import cu from './conviction-children/cu.json';
-import ts from './conviction-children/ts.json';
+import { getProductsByCategory } from './conviction-children/index.js';
+// import sp from  './conviction-children/sp.json';
+// import cu from './conviction-children/cu.json';
+// import ts from './conviction-children/ts.json';
 
 
 
@@ -15,20 +16,20 @@ const App = () => {
   const [selectedConvictionChild, setSelectedConvictionChild] = useState('');
 
 
-  const getProductsByCategory = () => {
-    switch (selectedConvictionType) {
-      case 'SP':
-        return sp;
-      case 'CU':
-        return cu;
-      case 'TS':
-        return ts;
-      default:
-        return [];
-    }
-  };
+  // const getProductsByCategory = () => {
+  //   switch (selectedConvictionType) {
+  //     case 'SP':
+  //       return sp;
+  //     case 'CU':
+  //       return cu;
+  //     case 'TS':
+  //       return ts;
+  //     default:
+  //       return Promise.resolve([]);
+  //   }
+  // };
   
-  const categoryProducts = getProductsByCategory();
+  const categoryProducts = getProductsByCategory(selectedConvictionType);
   
   return (
     <main>

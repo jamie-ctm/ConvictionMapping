@@ -12,6 +12,7 @@ export const getProductsByCategory = (category) => {
         case 'TS':
             return ts;
         default:
-            return Promise.resolve([]);
+            // return Promise.resolve([]);
+            return;
     }
 };
